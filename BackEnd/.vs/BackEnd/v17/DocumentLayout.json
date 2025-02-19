@@ -3,24 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\mauro\\Desktop\\MarketProject\\BackEnd\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{71477F5D-0200-4182-A556-5617D8FAD6D0}|BackEnd.csproj|c:\\users\\mauro\\desktop\\marketproject\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71477F5D-0200-4182-A556-5617D8FAD6D0}|BackEnd.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{71477F5D-0200-4182-A556-5617D8FAD6D0}|BackEnd.csproj|c:\\users\\mauro\\desktop\\marketproject\\backend\\model\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71477F5D-0200-4182-A556-5617D8FAD6D0}|BackEnd.csproj|solutionrelative:model\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{71477F5D-0200-4182-A556-5617D8FAD6D0}|BackEnd.csproj|c:\\users\\mauro\\desktop\\marketproject\\backend\\controller\\stockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71477F5D-0200-4182-A556-5617D8FAD6D0}|BackEnd.csproj|solutionrelative:controller\\stockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{71477F5D-0200-4182-A556-5617D8FAD6D0}|BackEnd.csproj|c:\\users\\mauro\\desktop\\marketproject\\backend\\model\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{71477F5D-0200-4182-A556-5617D8FAD6D0}|BackEnd.csproj|solutionrelative:model\\stock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{71477F5D-0200-4182-A556-5617D8FAD6D0}|BackEnd.csproj|c:\\users\\mauro\\desktop\\marketproject\\backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{71477F5D-0200-4182-A556-5617D8FAD6D0}|BackEnd.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{71477F5D-0200-4182-A556-5617D8FAD6D0}|BackEnd.csproj|c:\\users\\mauro\\desktop\\marketproject\\backend\\services\\createstockservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71477F5D-0200-4182-A556-5617D8FAD6D0}|BackEnd.csproj|solutionrelative:services\\createstockservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71477F5D-0200-4182-A556-5617D8FAD6D0}|BackEnd.csproj|c:\\users\\mauro\\desktop\\marketproject\\backend\\mappers\\stockmappers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71477F5D-0200-4182-A556-5617D8FAD6D0}|BackEnd.csproj|solutionrelative:mappers\\stockmappers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71477F5D-0200-4182-A556-5617D8FAD6D0}|BackEnd.csproj|c:\\users\\mauro\\desktop\\marketproject\\backend\\dtos\\stock\\stockdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71477F5D-0200-4182-A556-5617D8FAD6D0}|BackEnd.csproj|solutionrelative:dtos\\stock\\stockdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71477F5D-0200-4182-A556-5617D8FAD6D0}|BackEnd.csproj|c:\\users\\mauro\\desktop\\marketproject\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71477F5D-0200-4182-A556-5617D8FAD6D0}|BackEnd.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{71477F5D-0200-4182-A556-5617D8FAD6D0}|BackEnd.csproj|c:\\users\\mauro\\desktop\\marketproject\\backend\\data\\marketdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{71477F5D-0200-4182-A556-5617D8FAD6D0}|BackEnd.csproj|solutionrelative:data\\marketdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71477F5D-0200-4182-A556-5617D8FAD6D0}|BackEnd.csproj|c:\\users\\mauro\\desktop\\marketproject\\backend\\dtos\\stock\\createstockdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71477F5D-0200-4182-A556-5617D8FAD6D0}|BackEnd.csproj|solutionrelative:dtos\\stock\\createstockdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71477F5D-0200-4182-A556-5617D8FAD6D0}|BackEnd.csproj|c:\\users\\mauro\\desktop\\marketproject\\backend\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{71477F5D-0200-4182-A556-5617D8FAD6D0}|BackEnd.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71477F5D-0200-4182-A556-5617D8FAD6D0}|BackEnd.csproj|c:\\users\\mauro\\desktop\\marketproject\\backend\\model\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71477F5D-0200-4182-A556-5617D8FAD6D0}|BackEnd.csproj|solutionrelative:model\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{71477F5D-0200-4182-A556-5617D8FAD6D0}|BackEnd.csproj|c:\\users\\mauro\\desktop\\marketproject\\backend\\backend.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -34,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,7 +62,72 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CreateStockService.cs",
+              "DocumentMoniker": "C:\\Users\\mauro\\Desktop\\MarketProject\\BackEnd\\Services\\CreateStockService.cs",
+              "RelativeDocumentMoniker": "Services\\CreateStockService.cs",
+              "ToolTip": "C:\\Users\\mauro\\Desktop\\MarketProject\\BackEnd\\Services\\CreateStockService.cs",
+              "RelativeToolTip": "Services\\CreateStockService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T07:07:20.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CreateStockDto.cs",
+              "DocumentMoniker": "C:\\Users\\mauro\\Desktop\\MarketProject\\BackEnd\\Dtos\\Stock\\CreateStockDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\Stock\\CreateStockDto.cs",
+              "ToolTip": "C:\\Users\\mauro\\Desktop\\MarketProject\\BackEnd\\Dtos\\Stock\\CreateStockDto.cs",
+              "RelativeToolTip": "Dtos\\Stock\\CreateStockDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T06:43:30.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "StockMappers.cs",
+              "DocumentMoniker": "C:\\Users\\mauro\\Desktop\\MarketProject\\BackEnd\\Mappers\\StockMappers.cs",
+              "RelativeDocumentMoniker": "Mappers\\StockMappers.cs",
+              "ToolTip": "C:\\Users\\mauro\\Desktop\\MarketProject\\BackEnd\\Mappers\\StockMappers.cs",
+              "RelativeToolTip": "Mappers\\StockMappers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T05:42:11.113Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StockDto.cs",
+              "DocumentMoniker": "C:\\Users\\mauro\\Desktop\\MarketProject\\BackEnd\\Dtos\\Stock\\StockDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\Stock\\StockDto.cs",
+              "ToolTip": "C:\\Users\\mauro\\Desktop\\MarketProject\\BackEnd\\Dtos\\Stock\\StockDto.cs",
+              "RelativeToolTip": "Dtos\\Stock\\StockDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T05:40:21.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StockController.cs",
+              "DocumentMoniker": "C:\\Users\\mauro\\Desktop\\MarketProject\\BackEnd\\Controller\\StockController.cs",
+              "RelativeDocumentMoniker": "Controller\\StockController.cs",
+              "ToolTip": "C:\\Users\\mauro\\Desktop\\MarketProject\\BackEnd\\Controller\\StockController.cs",
+              "RelativeToolTip": "Controller\\StockController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAcwCsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-19T05:05:51.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\mauro\\Desktop\\MarketProject\\BackEnd\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -50,24 +135,25 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-18T08:57:01.041Z"
+              "WhenOpened": "2025-02-18T08:57:01.041Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\mauro\\Desktop\\MarketProject\\BackEnd\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\mauro\\Desktop\\MarketProject\\BackEnd\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-18T08:55:22.141Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "BackEnd.csproj",
               "DocumentMoniker": "C:\\Users\\mauro\\Desktop\\MarketProject\\BackEnd\\BackEnd.csproj",
               "RelativeDocumentMoniker": "BackEnd.csproj",
@@ -79,7 +165,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "MarketDBContext.cs",
               "DocumentMoniker": "C:\\Users\\mauro\\Desktop\\MarketProject\\BackEnd\\Data\\MarketDBContext.cs",
               "RelativeDocumentMoniker": "Data\\MarketDBContext.cs",
@@ -87,11 +173,12 @@
               "RelativeToolTip": "Data\\MarketDBContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T08:51:22.676Z"
+              "WhenOpened": "2025-02-18T08:51:22.676Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 9,
               "Title": "Comment.cs",
               "DocumentMoniker": "C:\\Users\\mauro\\Desktop\\MarketProject\\BackEnd\\Model\\Comment.cs",
               "RelativeDocumentMoniker": "Model\\Comment.cs",
@@ -104,13 +191,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Stock.cs",
               "DocumentMoniker": "C:\\Users\\mauro\\Desktop\\MarketProject\\BackEnd\\Model\\Stock.cs",
               "RelativeDocumentMoniker": "Model\\Stock.cs",
               "ToolTip": "C:\\Users\\mauro\\Desktop\\MarketProject\\BackEnd\\Model\\Stock.cs",
               "RelativeToolTip": "Model\\Stock.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABLAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-18T08:28:39.043Z",
               "EditorCaption": ""

@@ -1,4 +1,5 @@
 using BackEnd.Data;
+using BackEnd.Services;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.SqlServer;
 var builder = WebApplication.CreateBuilder(args);
@@ -7,6 +8,8 @@ var builder = WebApplication.CreateBuilder(args);
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
 builder.Services.AddDbContext<MarketDBContext>(options => options.UseSqlServer(builder.Configuration.GetConnectionString("ConnectionDb")));
+builder.Services.AddControllers();
+builder.Services.AddScoped<ICreateStockService, CreateStockService>();
 var app = builder.Build();
 
 using(var scope = app.Services.CreateScope())
@@ -19,15 +22,7 @@ if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
 }
-
 app.UseHttpsRedirection();
-
-
-
-
+app.MapControllers();
 app.Run();
 
-record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
-{
-    public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
-}
