@@ -4,6 +4,7 @@ using BackEnd.Mappers;
 using BackEnd.Model;
 using Microsoft.EntityFrameworkCore;
 using BackEnd.Repositories.Interfaces;
+using BackEnd.Dtos.Comment;
 namespace BackEnd.Repositories
 {
     public class StockRepository : IStockRepository
@@ -85,5 +86,22 @@ namespace BackEnd.Repositories
             }
         }
 
+        public async Task<StockDto?> GetByIdWithComments(int id)
+        {
+            Stock? stockEntity = await _context.stocks.Include(c => c.Comments).FirstOrDefaultAsync();
+            if (stockEntity == null)
+                return null;
+            StockDto stockReturn = stockEntity.ToStockDto();
+            return stockReturn;
+        }
+
+        public async Task<List<StockDto>> GetAllWithComments()
+        {
+            List<Stock> stockEntityList = await _context.stocks.Include(c => c.Comments).ToListAsync();
+            
+            List<StockDto> stockListReturn = stockEntityList.Select(s => s.ToStockDto()).ToList();
+
+            return stockListReturn;
+        }
     }
 }

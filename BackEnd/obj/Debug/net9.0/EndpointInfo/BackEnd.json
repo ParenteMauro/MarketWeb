@@ -243,6 +243,41 @@
           }
         }
       }
+    },
+    "/api/Stock/stockWithComments/{id}": {
+      "get": {
+        "tags": [
+          "Stock"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Stock/getAllWithComments": {
+      "get": {
+        "tags": [
+          "Stock"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
     }
   },
   "components": {

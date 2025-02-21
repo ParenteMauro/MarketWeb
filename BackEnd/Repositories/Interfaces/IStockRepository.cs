@@ -9,5 +9,7 @@ namespace BackEnd.Repositories.Interfaces
         Task<List<StockDto>> GetAll();
         Task<bool> DeleteStock(int id);
         Task<bool> RepalceStock(int id, CreateStockDto stockNewInfo);
+        Task<StockDto?> GetByIdWithComments(int id);
+        Task<List<StockDto>> GetAllWithComments();
     }
 }

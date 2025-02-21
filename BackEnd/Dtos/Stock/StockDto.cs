@@ -1,6 +1,6 @@
 ﻿using BackEnd.Model;
 using System.ComponentModel.DataAnnotations.Schema;
-
+using BackEnd.Dtos.Comment;
 namespace BackEnd.Dtos.Stock
 {
     public class StockDto
@@ -16,5 +16,6 @@ namespace BackEnd.Dtos.Stock
 
         public long MarketCap { get; set; }
         
+        public List<CommentDto> Comments { get; set; }
     }
 }
