@@ -1,0 +1,13 @@
+﻿using BackEnd.Dtos.Comment;
+
+namespace BackEnd.Repositories.Interfaces
+{
+    public interface ICommentRepository
+    {
+        Task<List<CommentDto>> GetAll();
+        Task<CommentDto?> GetById(int id);
+        Task<CommentDto> Create(CreateCommentDto newComment);
+        Task<bool> Replace(CommentDto commentDto);
+        Task<bool> DeleteById(int id); 
+    }
+}

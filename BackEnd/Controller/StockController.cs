@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 using BackEnd.Mappers;
 using BackEnd.Dtos.Stock;
-using BackEnd.Repositories;
+using BackEnd.Repositories.Interfaces;
 
 namespace BackEnd.Controller
 {

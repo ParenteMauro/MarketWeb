@@ -3,16 +3,9 @@ using BackEnd.Dtos.Stock;
 using BackEnd.Mappers;
 using BackEnd.Model;
 using Microsoft.EntityFrameworkCore;
+using BackEnd.Repositories.Interfaces;
 namespace BackEnd.Repositories
 {
-    public interface IStockRepository
-    {
-        Task<StockDto> Create(CreateStockDto newStock);
-        Task<StockDto?> GetById(int id);
-        Task<List<StockDto>> GetAll();
-        Task<bool> DeleteStock(int id);
-        Task<bool> RepalceStock(int id, CreateStockDto stockNewInfo);
-    }
     public class StockRepository : IStockRepository
     {
         private readonly MarketDBContext _context;

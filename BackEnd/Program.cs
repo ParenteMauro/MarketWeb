@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore.SqlServer;
 using Microsoft.OpenApi.Models;
 using Microsoft.AspNetCore.Builder;
 using BackEnd.Repositories;
+using BackEnd.Repositories.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -19,6 +20,8 @@ builder.Services.AddDbContext<MarketDBContext>(options =>
 
 builder.Services.AddControllers();
 builder.Services.AddScoped<IStockRepository, StockRepository>();
+builder.Services.AddScoped<ICommentRepository, CommentRepository>();
+
 var app = builder.Build();
 
 using (var scope = app.Services.CreateScope())
