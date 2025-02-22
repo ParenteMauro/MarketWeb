@@ -11,5 +11,6 @@ namespace BackEnd.Repositories.Interfaces
         Task<bool> RepalceStock(int id, CreateStockDto stockNewInfo);
         Task<StockDto?> GetByIdWithComments(int id);
         Task<List<StockDto>> GetAllWithComments();
+        Task<bool> StockExists(int id);
     }
 }

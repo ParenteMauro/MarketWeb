@@ -9,9 +9,11 @@ namespace BackEnd.Controller
     public class CommentController : ControllerBase
     {
         private readonly ICommentRepository _commentRepo;
-        public CommentController(ICommentRepository commentRepo)
+        private readonly IStockRepository _stockRepo;
+        public CommentController(ICommentRepository commentRepo, IStockRepository stockRepository)
         {
             _commentRepo = commentRepo;
+            _stockRepo = stockRepository;
         }
 
         [HttpGet("{id}")]
@@ -32,13 +34,17 @@ namespace BackEnd.Controller
             return Ok(commentsList);
         }
 
-        [HttpPost]
-        public async Task<IActionResult> CreateComment([FromBody] CreateCommentDto commentInfo)
+        [HttpPost("{stockId}")]
+        public async Task<IActionResult> CreateComment([FromRoute] int stockId, [FromBody] CreateCommentDto commentInfo)
         {
-            CommentDto? commentCreated = await _commentRepo.Create(commentInfo);
-            if (commentCreated == null)
-                return NotFound();
-            return Ok(commentCreated);
+            if (await _stockRepo.StockExists(stockId))
+            {
+                CommentDto? commentCreated = await _commentRepo.Create(commentInfo);
+                if (commentCreated == null)
+                    return NotFound();
+                return CreatedAtAction(nameof(GetById), new { id = commentCreated }, commentCreated);
+            }
+            return BadRequest("Stock wasn't found");
         }
 
         [HttpDelete("{id}")]
@@ -49,13 +55,13 @@ namespace BackEnd.Controller
                 return NotFound();
             return Ok();
         }
-        [HttpPut]
-        public async Task<IActionResult> Replace([FromBody] CommentDto comment)
+        [HttpPut("{commentId}")]
+        public async Task<IActionResult> Replace([FromRoute] int commentId, [FromBody] UpdateCommentDto commentNewInfo)
         {
-            bool response = await _commentRepo.Replace(comment);
+            bool response = await _commentRepo.Replace(commentId, commentNewInfo);
             if(!response)
                 return NotFound();
-            return Ok(comment);
+            return Ok();
         }
     }
 }

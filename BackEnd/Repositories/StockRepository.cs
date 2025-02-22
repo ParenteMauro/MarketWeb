@@ -103,5 +103,8 @@ namespace BackEnd.Repositories
 
             return stockListReturn;
         }
+
+        public async Task<bool> StockExists(int id)
+        =>await _context.stocks.AnyAsync(s => s.Id == id);
     }
 }

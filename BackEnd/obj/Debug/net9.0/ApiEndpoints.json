@@ -11,31 +11,20 @@
   },
   {
     "ContainingType": "BackEnd.Controller.CommentController",
-    "Method": "CreateComment",
-    "RelativePath": "api/Comment",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "commentInfo",
-        "Type": "BackEnd.Dtos.Comment.CreateCommentDto",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "BackEnd.Controller.CommentController",
     "Method": "Replace",
-    "RelativePath": "api/Comment",
+    "RelativePath": "api/Comment/{commentId}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "comment",
-        "Type": "BackEnd.Dtos.Comment.CommentDto",
+        "Name": "commentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "commentNewInfo",
+        "Type": "BackEnd.Dtos.Comment.UpdateCommentDto",
         "IsRequired": true
       }
     ],
@@ -68,6 +57,27 @@
       {
         "Name": "id",
         "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BackEnd.Controller.CommentController",
+    "Method": "CreateComment",
+    "RelativePath": "api/Comment/{stockId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "stockId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "commentInfo",
+        "Type": "BackEnd.Dtos.Comment.CreateCommentDto",
         "IsRequired": true
       }
     ],

@@ -54,21 +54,16 @@ namespace BackEnd.Repositories
             return commentEntity.ToCommentDto();
         }
 
-        public async Task<bool> Replace(CommentDto commentDto)
+        public async Task<bool> Replace(int id, UpdateCommentDto commentDto)
         {
-            Comment? commentEntity = await _context.comments.FirstOrDefaultAsync(comment => comment.Id == commentDto.Id);
+            Comment? commentEntity = await _context.comments.FirstOrDefaultAsync(comment => comment.Id == id);
             if (commentEntity == null)
                 return false;
             commentEntity.Title = commentDto.Title;
             commentEntity.Content = commentDto.Content;
-            commentEntity.CreatedOn = commentDto.CreatedOn;
-            commentEntity.StockId = commentDto.StockId;
-
             _context.Update(commentEntity);
             await _context.SaveChangesAsync();
             return true;
         }
-
-       
     }
 }
