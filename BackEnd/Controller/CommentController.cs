@@ -16,7 +16,7 @@ namespace BackEnd.Controller
             _stockRepo = stockRepository;
         }
 
-        [HttpGet("{id}")]
+        [HttpGet("{id:int}")]
         public async Task<IActionResult> GetById(int id)
         {
             CommentDto? comment = await _commentRepo.GetById(id);
@@ -34,9 +34,12 @@ namespace BackEnd.Controller
             return Ok(commentsList);
         }
 
-        [HttpPost("{stockId}")]
+        [HttpPost("{stockId:int}")]
         public async Task<IActionResult> CreateComment([FromRoute] int stockId, [FromBody] CreateCommentDto commentInfo)
         {
+            if(!ModelState.IsValid)
+                return BadRequest(ModelState);
+            
             if (await _stockRepo.StockExists(stockId))
             {
                 CommentDto? commentCreated = await _commentRepo.Create(commentInfo);
@@ -47,7 +50,7 @@ namespace BackEnd.Controller
             return BadRequest("Stock wasn't found");
         }
 
-        [HttpDelete("{id}")]
+        [HttpDelete("{id:int}")]
         public async Task<IActionResult> Delete(int id)
         {
             bool response = await _commentRepo.DeleteById(id);
@@ -55,9 +58,12 @@ namespace BackEnd.Controller
                 return NotFound();
             return Ok();
         }
-        [HttpPut("{commentId}")]
+        [HttpPut("{commentId:int}")]
         public async Task<IActionResult> Replace([FromRoute] int commentId, [FromBody] UpdateCommentDto commentNewInfo)
         {
+            if(!ModelState.IsValid)
+                return BadRequest(ModelState);  
+
             bool response = await _commentRepo.Replace(commentId, commentNewInfo);
             if(!response)
                 return NotFound();

@@ -1,4 +1,5 @@
 ﻿using BackEnd.Dtos.Stock;
+using BackEnd.Helpers;
 
 namespace BackEnd.Repositories.Interfaces
 {
@@ -6,7 +7,7 @@ namespace BackEnd.Repositories.Interfaces
     {
         Task<StockDto> Create(CreateStockDto newStock);
         Task<StockDto?> GetById(int id);
-        Task<List<StockDto>> GetAll();
+        Task<List<StockDto>> GetAll(QueryObject query);
         Task<bool> DeleteStock(int id);
         Task<bool> RepalceStock(int id, CreateStockDto stockNewInfo);
         Task<StockDto?> GetByIdWithComments(int id);

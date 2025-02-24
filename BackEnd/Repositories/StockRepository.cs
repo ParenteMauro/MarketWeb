@@ -5,6 +5,7 @@ using BackEnd.Model;
 using Microsoft.EntityFrameworkCore;
 using BackEnd.Repositories.Interfaces;
 using BackEnd.Dtos.Comment;
+using BackEnd.Helpers;
 namespace BackEnd.Repositories
 {
     public class StockRepository : IStockRepository
@@ -15,12 +16,27 @@ namespace BackEnd.Repositories
         {
             _context = context;
         }
-        public async Task<List<StockDto>> GetAll()
+        public async Task<List<StockDto>> GetAll(QueryObject query)
         {
-            List<Stock> stocks = await _context.stocks.ToListAsync();
-            if (stocks == null)
-                return null;
-            List<StockDto> returnStocks = stocks.Select(s => s.ToStockDto()).ToList();
+            IQueryable<Stock> stocks = _context.stocks.Include(c => c.Comments).AsQueryable();
+            if (!string.IsNullOrWhiteSpace(query.CompanyName))
+            {
+                stocks = stocks.Where(s => s.CompanyName == query.CompanyName);
+            }
+
+            if (!string.IsNullOrWhiteSpace(query.Symbol))
+                stocks = stocks.Where(s => s.Symbol == query.Symbol);
+            
+            if(!string.IsNullOrWhiteSpace(query.SortBy))
+            {
+                if(query.SortBy.Equals("Symbol", StringComparison.OrdinalIgnoreCase))
+                {
+                    stocks = query.IsDecsending ? stocks.OrderByDescending(s => s.Symbol) : stocks.OrderBy(s => s.Symbol);
+                }
+            }
+
+            List<Stock> stocksList = await stocks.ToListAsync();
+            List<StockDto> returnStocks = stocksList.Select(s => s.ToStockDto()).ToList();
             return returnStocks;
         }
         public async Task<StockDto> Create(CreateStockDto newStock)

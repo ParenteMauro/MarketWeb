@@ -3,6 +3,42 @@
   "WorkspaceRootPath": "C:\\Users\\mauro\\Desktop\\MarketProject\\BackEnd\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{71477F5D-0200-4182-A556-5617D8FAD6D0}|BackEnd.csproj|c:\\users\\mauro\\desktop\\marketproject\\backend\\repositories\\stockrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71477F5D-0200-4182-A556-5617D8FAD6D0}|BackEnd.csproj|solutionrelative:repositories\\stockrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71477F5D-0200-4182-A556-5617D8FAD6D0}|BackEnd.csproj|c:\\users\\mauro\\desktop\\marketproject\\backend\\repositories\\interfaces\\istockrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71477F5D-0200-4182-A556-5617D8FAD6D0}|BackEnd.csproj|solutionrelative:repositories\\interfaces\\istockrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71477F5D-0200-4182-A556-5617D8FAD6D0}|BackEnd.csproj|c:\\users\\mauro\\desktop\\marketproject\\backend\\helpers\\queryobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71477F5D-0200-4182-A556-5617D8FAD6D0}|BackEnd.csproj|solutionrelative:helpers\\queryobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71477F5D-0200-4182-A556-5617D8FAD6D0}|BackEnd.csproj|c:\\users\\mauro\\desktop\\marketproject\\backend\\controller\\stockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71477F5D-0200-4182-A556-5617D8FAD6D0}|BackEnd.csproj|solutionrelative:controller\\stockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71477F5D-0200-4182-A556-5617D8FAD6D0}|BackEnd.csproj|c:\\users\\mauro\\desktop\\marketproject\\backend\\dtos\\stock\\stockdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71477F5D-0200-4182-A556-5617D8FAD6D0}|BackEnd.csproj|solutionrelative:dtos\\stock\\stockdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71477F5D-0200-4182-A556-5617D8FAD6D0}|BackEnd.csproj|c:\\users\\mauro\\desktop\\marketproject\\backend\\controller\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71477F5D-0200-4182-A556-5617D8FAD6D0}|BackEnd.csproj|solutionrelative:controller\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71477F5D-0200-4182-A556-5617D8FAD6D0}|BackEnd.csproj|c:\\users\\mauro\\desktop\\marketproject\\backend\\dtos\\stock\\createstockdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71477F5D-0200-4182-A556-5617D8FAD6D0}|BackEnd.csproj|solutionrelative:dtos\\stock\\createstockdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71477F5D-0200-4182-A556-5617D8FAD6D0}|BackEnd.csproj|c:\\users\\mauro\\desktop\\marketproject\\backend\\dtos\\comment\\createcommentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71477F5D-0200-4182-A556-5617D8FAD6D0}|BackEnd.csproj|solutionrelative:dtos\\comment\\createcommentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71477F5D-0200-4182-A556-5617D8FAD6D0}|BackEnd.csproj|c:\\users\\mauro\\desktop\\marketproject\\backend\\dtos\\comment\\updatecommentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71477F5D-0200-4182-A556-5617D8FAD6D0}|BackEnd.csproj|solutionrelative:dtos\\comment\\updatecommentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{71477F5D-0200-4182-A556-5617D8FAD6D0}|BackEnd.csproj|c:\\users\\mauro\\desktop\\marketproject\\backend\\repositories\\commentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{71477F5D-0200-4182-A556-5617D8FAD6D0}|BackEnd.csproj|solutionrelative:repositories\\commentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,24 +47,12 @@
       "RelativeMoniker": "D:0:0:{71477F5D-0200-4182-A556-5617D8FAD6D0}|BackEnd.csproj|solutionrelative:repositories\\interfaces\\icommentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{71477F5D-0200-4182-A556-5617D8FAD6D0}|BackEnd.csproj|c:\\users\\mauro\\desktop\\marketproject\\backend\\controller\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71477F5D-0200-4182-A556-5617D8FAD6D0}|BackEnd.csproj|solutionrelative:controller\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{71477F5D-0200-4182-A556-5617D8FAD6D0}|BackEnd.csproj|c:\\users\\mauro\\desktop\\marketproject\\backend\\dtos\\comment\\updatecommentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71477F5D-0200-4182-A556-5617D8FAD6D0}|BackEnd.csproj|solutionrelative:dtos\\comment\\updatecommentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{71477F5D-0200-4182-A556-5617D8FAD6D0}|BackEnd.csproj|c:\\users\\mauro\\desktop\\marketproject\\backend\\dtos\\comment\\commentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{71477F5D-0200-4182-A556-5617D8FAD6D0}|BackEnd.csproj|solutionrelative:dtos\\comment\\commentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{71477F5D-0200-4182-A556-5617D8FAD6D0}|BackEnd.csproj|c:\\users\\mauro\\desktop\\marketproject\\backend\\mappers\\stockmappers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{71477F5D-0200-4182-A556-5617D8FAD6D0}|BackEnd.csproj|solutionrelative:mappers\\stockmappers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{71477F5D-0200-4182-A556-5617D8FAD6D0}|BackEnd.csproj|c:\\users\\mauro\\desktop\\marketproject\\backend\\dtos\\stock\\stockdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{71477F5D-0200-4182-A556-5617D8FAD6D0}|BackEnd.csproj|solutionrelative:dtos\\stock\\stockdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{71477F5D-0200-4182-A556-5617D8FAD6D0}|BackEnd.csproj|c:\\users\\mauro\\desktop\\marketproject\\backend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,7 +66,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -51,6 +75,71 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "IStockRepository.cs",
+              "DocumentMoniker": "C:\\Users\\mauro\\Desktop\\MarketProject\\BackEnd\\Repositories\\Interfaces\\IStockRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interfaces\\IStockRepository.cs",
+              "ToolTip": "C:\\Users\\mauro\\Desktop\\MarketProject\\BackEnd\\Repositories\\Interfaces\\IStockRepository.cs",
+              "RelativeToolTip": "Repositories\\Interfaces\\IStockRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T12:57:14.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StockRepository.cs",
+              "DocumentMoniker": "C:\\Users\\mauro\\Desktop\\MarketProject\\BackEnd\\Repositories\\StockRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\StockRepository.cs",
+              "ToolTip": "C:\\Users\\mauro\\Desktop\\MarketProject\\BackEnd\\Repositories\\StockRepository.cs*",
+              "RelativeToolTip": "Repositories\\StockRepository.cs*",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T12:48:03.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "QueryObject.cs",
+              "DocumentMoniker": "C:\\Users\\mauro\\Desktop\\MarketProject\\BackEnd\\Helpers\\QueryObject.cs",
+              "RelativeDocumentMoniker": "Helpers\\QueryObject.cs",
+              "ToolTip": "C:\\Users\\mauro\\Desktop\\MarketProject\\BackEnd\\Helpers\\QueryObject.cs",
+              "RelativeToolTip": "Helpers\\QueryObject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T12:45:38.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CreateCommentDto.cs",
+              "DocumentMoniker": "C:\\Users\\mauro\\Desktop\\MarketProject\\BackEnd\\Dtos\\Comment\\CreateCommentDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\Comment\\CreateCommentDto.cs",
+              "ToolTip": "C:\\Users\\mauro\\Desktop\\MarketProject\\BackEnd\\Dtos\\Comment\\CreateCommentDto.cs",
+              "RelativeToolTip": "Dtos\\Comment\\CreateCommentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T11:58:18.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StockController.cs",
+              "DocumentMoniker": "C:\\Users\\mauro\\Desktop\\MarketProject\\BackEnd\\Controller\\StockController.cs",
+              "RelativeDocumentMoniker": "Controller\\StockController.cs",
+              "ToolTip": "C:\\Users\\mauro\\Desktop\\MarketProject\\BackEnd\\Controller\\StockController.cs",
+              "RelativeToolTip": "Controller\\StockController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T11:51:27.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "ICommentRepository.cs",
               "DocumentMoniker": "C:\\Users\\mauro\\Desktop\\MarketProject\\BackEnd\\Repositories\\Interfaces\\ICommentRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\Interfaces\\ICommentRepository.cs",
@@ -58,38 +147,37 @@
               "RelativeToolTip": "Repositories\\Interfaces\\ICommentRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-22T13:51:00.866Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-22T13:51:00.866Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "UpdateCommentDto.cs",
               "DocumentMoniker": "C:\\Users\\mauro\\Desktop\\MarketProject\\BackEnd\\Dtos\\Comment\\UpdateCommentDto.cs",
               "RelativeDocumentMoniker": "Dtos\\Comment\\UpdateCommentDto.cs",
               "ToolTip": "C:\\Users\\mauro\\Desktop\\MarketProject\\BackEnd\\Dtos\\Comment\\UpdateCommentDto.cs",
               "RelativeToolTip": "Dtos\\Comment\\UpdateCommentDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-22T13:48:39.468Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "CommentController.cs",
               "DocumentMoniker": "C:\\Users\\mauro\\Desktop\\MarketProject\\BackEnd\\Controller\\CommentController.cs",
               "RelativeDocumentMoniker": "Controller\\CommentController.cs",
               "ToolTip": "C:\\Users\\mauro\\Desktop\\MarketProject\\BackEnd\\Controller\\CommentController.cs",
               "RelativeToolTip": "Controller\\CommentController.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAYwDoAAABnAAAAAAAAAA==",
+              "ViewState": "AgIAACYAAAAAAAAAAAAIwEEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-21T07:48:43.28Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 11,
               "Title": "CommentDto.cs",
               "DocumentMoniker": "C:\\Users\\mauro\\Desktop\\MarketProject\\BackEnd\\Dtos\\Comment\\CommentDto.cs",
               "RelativeDocumentMoniker": "Dtos\\Comment\\CommentDto.cs",
@@ -97,37 +185,50 @@
               "RelativeToolTip": "Dtos\\Comment\\CommentDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T07:39:40.04Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-21T07:39:40.04Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 9,
               "Title": "CommentRepository.cs",
               "DocumentMoniker": "C:\\Users\\mauro\\Desktop\\MarketProject\\BackEnd\\Repositories\\CommentRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\CommentRepository.cs",
               "ToolTip": "C:\\Users\\mauro\\Desktop\\MarketProject\\BackEnd\\Repositories\\CommentRepository.cs",
               "RelativeToolTip": "Repositories\\CommentRepository.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAowDkAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowCoAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-21T07:38:01.007Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "StockDto.cs",
               "DocumentMoniker": "C:\\Users\\mauro\\Desktop\\MarketProject\\BackEnd\\Dtos\\Stock\\StockDto.cs",
               "RelativeDocumentMoniker": "Dtos\\Stock\\StockDto.cs",
               "ToolTip": "C:\\Users\\mauro\\Desktop\\MarketProject\\BackEnd\\Dtos\\Stock\\StockDto.cs",
               "RelativeToolTip": "Dtos\\Stock\\StockDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-21T09:02:32.914Z"
+              "WhenOpened": "2025-02-21T09:02:32.914Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
+              "Title": "CreateStockDto.cs",
+              "DocumentMoniker": "C:\\Users\\mauro\\Desktop\\MarketProject\\BackEnd\\Dtos\\Stock\\CreateStockDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\Stock\\CreateStockDto.cs",
+              "ToolTip": "C:\\Users\\mauro\\Desktop\\MarketProject\\BackEnd\\Dtos\\Stock\\CreateStockDto.cs",
+              "RelativeToolTip": "Dtos\\Stock\\CreateStockDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-24T12:02:15.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "StockMappers.cs",
               "DocumentMoniker": "C:\\Users\\mauro\\Desktop\\MarketProject\\BackEnd\\Mappers\\StockMappers.cs",
               "RelativeDocumentMoniker": "Mappers\\StockMappers.cs",
@@ -139,7 +240,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 13,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\mauro\\Desktop\\MarketProject\\BackEnd\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",

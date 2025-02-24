@@ -5,6 +5,7 @@ using Microsoft.EntityFrameworkCore.ChangeTracking;
 using BackEnd.Mappers;
 using BackEnd.Dtos.Stock;
 using BackEnd.Repositories.Interfaces;
+using BackEnd.Helpers;
 
 namespace BackEnd.Controller
 {
@@ -19,9 +20,9 @@ namespace BackEnd.Controller
             _stockRepo = stockRepo;
         }
         [HttpGet]
-        public async Task<IActionResult> GetAllStocks()
+        public async Task<IActionResult> GetAllStocks([FromQuery] QueryObject query)
         {
-            var stockList = await _stockRepo.GetAll();
+            var stockList = await _stockRepo.GetAll(query);
             if (stockList == null)
                 return NotFound();
 
@@ -29,7 +30,7 @@ namespace BackEnd.Controller
         }
 
 
-        [HttpGet("{id}")]
+        [HttpGet("{id:int}")]
         public async Task<IActionResult> GetById([FromRoute] int id)
         {
             StockDto? stock = await _stockRepo.GetById(id);
@@ -39,11 +40,14 @@ namespace BackEnd.Controller
         }
 
         [HttpPost]
-        public async Task<IActionResult> Create([FromBody] CreateStockDto newStock)
-        => Ok(await _stockRepo.Create(newStock));
+        public async Task<IActionResult> Create([FromBody] CreateStockDto newStock) 
+        {
+            if (!ModelState.IsValid) 
+                return BadRequest(ModelState);
+            return Ok(await _stockRepo.Create(newStock));
+        }
 
-
-        [HttpDelete("{id}")]
+        [HttpDelete("{id:int}")]
 
         public async Task<IActionResult> Delete([FromRoute] int id)
         {
@@ -53,16 +57,19 @@ namespace BackEnd.Controller
             return Ok(response);
         }
 
-        [HttpPut("{id}")]
+        [HttpPut("{id:int}")]
         public async Task<IActionResult> Replace([FromRoute] int id, [FromBody] CreateStockDto stockInfo)
         {
+            if(!ModelState.IsValid)
+                return BadRequest(ModelState);
+
             bool response = await _stockRepo.RepalceStock(id, stockInfo);
             if (!response)
                 return BadRequest();
             return Ok(stockInfo);
         }
 
-        [HttpGet("stockWithComments/{id}")]
+        [HttpGet("stockWithComments/{id:int}")]
 
         public async Task<IActionResult> GetStockWithComments(int id)
         {
